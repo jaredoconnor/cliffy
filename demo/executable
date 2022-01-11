@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'cliffy'
+require_relative 'commands.rb'
+
+Cliffy::run HelloWorld.new, PrintCar.new
